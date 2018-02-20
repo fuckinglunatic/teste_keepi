@@ -25,3 +25,6 @@ npm run dev
 O projeto consome a API [https://github.com/martincarrera/clash-royale-api](https://github.com/martincarrera/clash-royale-api) que gera os decks aleatórios e disponibiliza as inforamções presentes nele.
 
 Foi utilizado apenas o CSS Vanilla para a estilização do projeto, algo simples e objetivo.
+
+
+This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see [Supercell’s Fan Content Policy](http://www.supercell.com/fan-content-policy).
