@@ -1,6 +1,6 @@
 # Teste para a vaga de Desenvolvedor Fullstack da Keep.i
 
-> Projeto desenvolvido com proósitos de demonstração de conhecimentos em Node.js e Vuejs
+> Projeto desenvolvido com propósitos de demonstração de conhecimentos em Node.js e Vuejs
 
 ## Build Setup
 
