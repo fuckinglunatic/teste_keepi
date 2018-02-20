@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Kavivanar');
+body {
+  position: relative;
+  float: left;
+  margin: 0;
+}
 .content{
   font-family: 'Kavivanar', cursive;
   text-align: center;
+}
+header {
+  background: #1E8DF8;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+  color: #fff;
 }
 ul {
   position: relative;
@@ -63,12 +76,13 @@ li img {
   top: 25px;
   position: relative;
 }
-
+button {
+  width: 300px;
+}
 .animate{
   transition: all 0.1s;
   -webkit-transition: all 0.1s;
 }
-
 .action-button{
   position: relative;
   padding: 10px 40px;

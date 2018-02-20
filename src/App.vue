@@ -1,5 +1,8 @@
 <template>
   <div class="content">
+    <header>
+      Random Deck
+    </header>
     <ul>
       <!-- For do vue para a propriedade passada -->
       <li v-for="cards in deck" :key="cards._id" :class="cards.rarity">
@@ -15,7 +18,7 @@
     </ul>
     <div class="footer">
       <!-- Botão simples para chamar novamente o metodo de gerar um deck aleatório -->
-      <button v-on:click="getDeck" class="action-button shadow animate red">Gerar deck novo</button>
+      <button v-on:click="getDeck" class="action-button shadow animate red">Gerar um deck novo</button>
     </div>
   </div>
 </template>
@@ -38,7 +41,6 @@ export default {
       // Faz a requisição na URL e gera uma premissa para tratar a resposta
       this.$http.get('http://www.clashapi.xyz/api/random-deck').then(function ({data}) {
         this.deck = data
-        console.log(this.deck)
       }, (error) => {
         console.log(error)
       })
